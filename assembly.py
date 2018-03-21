@@ -7,7 +7,7 @@ c=0
 binstr=""
 from nltk import tokenize
 from nltk.tokenize import RegexpTokenizer
-with open(exMIPS1) as assemblyCode:
+with open(exMIPS3) as assemblyCode:
 	text= assemblyCode.readlines()
 	for line in text:
 		tokenizer = RegexpTokenizer(r'\-*\w+')
